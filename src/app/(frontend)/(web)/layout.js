@@ -2,6 +2,8 @@ import Script from "next/script";
 import Navbar from "@/components/web/Navbar";
 import Footer from "@/components/web/Footer";
 
+export const dynamic = "force-dynamic";
+
 export default function WebLayout({ children }) {
     return (
         <>

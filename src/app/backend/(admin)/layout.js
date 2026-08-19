@@ -1,6 +1,8 @@
 import AdminShell from "@/components/backend/AdminShell";
 import { getCurrentUser } from "@/lib/auth/getCurrentUser";
 
+export const dynamic = "force-dynamic";
+
 export default async function BackendLayout({ children }) {
     const user = await getCurrentUser();
 
