@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import BlogDetails from "@/components/web/BlogDetails";
 import { getBlogAction } from "../actions";
 
+export const dynamic = "force-dynamic";
+
 export default async function BlogDetailsPage({ params }) {
     const { id } = await params;
     const result = await getBlogAction(id);

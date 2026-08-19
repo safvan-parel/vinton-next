@@ -3,6 +3,8 @@ import BlogForm from "../../BlogForm";
 import { updateBlogAction } from "../../actions";
 import { blogService } from "@/services/blogService";
 
+export const dynamic = "force-dynamic";
+
 export default async function EditBlogPage({ params }) {
     const { id } = await params;
     const blogId = Number(id);
