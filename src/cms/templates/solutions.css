@@ -1,0 +1,194 @@
+.sol-page {
+    color: #1a1a1a;
+    background: #fff;
+}
+
+.sol-intro,
+.sol-sectors {
+    padding: 88px 0 72px;
+}
+
+.sol-eyebrow,
+.sol-kicker {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    margin-bottom: 18px;
+}
+
+.sol-kicker {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.sol-headline {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.4rem, 5vw, 4.4rem);
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.sol-headline-light {
+    color: #fff;
+}
+
+.sol-subhead,
+.sol-body,
+.sol-lead {
+    max-width: 640px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #4a4a4a;
+}
+
+.sol-subhead {
+    margin-bottom: 48px;
+}
+
+.sol-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    font-weight: 500;
+    max-width: 720px;
+    margin: 0 0 18px;
+}
+
+.sol-approach {
+    background: #161616 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.12'/%3E%3C/svg%3E");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 96px 0;
+}
+
+.sol-lead {
+    color: rgba(255, 255, 255, 0.82);
+    max-width: none;
+}
+
+.sol-card {
+    background: rgba(20, 20, 20, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    padding: 28px 24px;
+    height: 100%;
+    backdrop-filter: blur(8px);
+}
+
+.sol-card h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.sol-card-item + .sol-card-item {
+    margin-top: 22px;
+    padding-top: 22px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sol-card-item h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.sol-card-item p {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.sol-link {
+    color: #fff;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.sol-link:hover {
+    color: #f3d2b5;
+}
+
+.sol-map {
+    position: relative;
+    margin-top: 36px;
+    background: #f3f1ee;
+    min-height: 360px;
+}
+
+.sol-map img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sol-map-placeholder {
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    padding: 40px;
+    text-align: center;
+}
+
+.sol-hotspot {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: #111;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 7px 10px;
+    white-space: nowrap;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.sol-hotspot:hover {
+    color: #fff;
+    background: #333;
+}
+
+.sol-next {
+    background: #0b0b0b;
+    color: #fff;
+    padding: 120px 0;
+}
+
+.sol-subhead-light,
+.sol-body-light {
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.sol-tagline {
+    color: #e08a4d;
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+    margin: 18px 0 24px;
+}
+
+.sol-divider img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #111;
+}
+
+@media (max-width: 767.98px) {
+    .sol-intro,
+    .sol-sectors,
+    .sol-approach,
+    .sol-next {
+        padding: 56px 0;
+    }
+
+    .sol-hotspot {
+        font-size: 10px;
+        padding: 5px 7px;
+    }
+}
